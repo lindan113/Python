@@ -33,8 +33,12 @@ print(40+60)
 - 在计算机内存中，统一使用**Unicode编码**，当需要保存到硬盘或者需要传输的时候，就转换为**UTF-8编码**。
 
 <img src="./image/记事本编辑.png"/>
+<img src="./image/浏览网页.png"/>
 
+语法：
+```
+<img src="./images/xxx.png"/>
+```
 
- Python/3/image/记事本编辑.png
 
 
