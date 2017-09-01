@@ -46,6 +46,21 @@ d.get('Linda',-1)
 ** dict运用了哈希算法 **
 key必须是不可变对象，list不可以作为key
 
+补充：
+Python可以对除了list,tuple迭代，比如dict
+```
+d = {'Ann':90,'Bob':98,'Lily':99}
+for key in d:
+	print(key,d[key])
+```
+得到结果：
+```
+Ann 90
+Lily 99
+Bob 98
+```
+
+
 # set
 和C++的类似，没有重复的key
 ```
